@@ -1,0 +1,307 @@
+.Company_Name {
+    font-size: 13px;
+    fontweight: bold;
+    borderstyle: none;
+    backgroundcolor: dimgray;
+    paddingleft: 0.5%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+nav {
+    margin-inline: 20px;
+}
+
+
+/* this class is for search bar decoration*/
+
+.search_bar {
+    float: right;
+    display: block;
+    color: black;
+    textalign: center;
+    padding: 14px 16px;
+    fontsize: 20px;
+}
+
+
+/*this class is for the button 'Click Here for More Images'*/
+
+.more__front_page {
+    fontsize: 20px;
+    font-weight: bold;
+    margin: 20px;
+    border-style: solid;
+    padding: 0.5%;
+}
+
+.more__front_page:link {
+    color: crimson;
+}
+
+.more__front_page:hover {
+    font-weight: bold;
+    color: black;
+}
+
+
+/*this class is for decorating the "privacy link and contact us link"*/
+
+.privacy {
+    fontsize: 14px;
+}
+
+.privacy:link {
+    color: darkblue;
+}
+
+.privacy:visited {
+    color: darkblue;
+}
+
+.privacy:hover {
+    color: crimson;
+}
+
+
+/*this class is for decorating the  "title of registration page"  */
+
+.Register_with_us {
+    font-size: 60px;
+    color: black;
+    fontfamily: 'Arimo', sans-serif;
+    margin: 0.5%;
+    borderradius: 8px;
+    border-style: solid;
+    textshadow: 2px 3px 8px black;
+}
+
+
+/* This class is for  "Registration Page"  decoration*/
+
+.register_page {
+    backgroundimage: url('/river_banks_coconut\ _trees_kerala.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backgroundattachment: fixed;
+}
+
+.form {
+    padding: 50px;
+    margin: 4%;
+    border-style: solid;
+    borderradius: 50px;
+    text-shadow: 3px 5px 8px white;
+}
+
+
+/*this classes is for decorating the  "About Us"  Page*/
+
+#para1 {
+    border-style: ridge;
+    padding: 00.5%;
+    font-family: 'Arimo', sans-serif;
+    font-size: 17px;
+}
+
+
+/* this if for decorating all the links ...         which colour when link visited or to be visited*/
+
+a {
+    textdecoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: chocolate;
+}
+
+
+/* this class is for decorating the  "welcome note" */
+
+.decoration_of_welcome {
+    background-color: darkslategrey;
+    font-family: 'Dancing Script', cursive;
+    font-size: 130px;
+    padding-top: 140px;
+    margin: 5px;
+    border: black;
+    textshadow: 6px 8px 10px grey;
+}
+
+.bg1 {
+    background-image: url('imagee/na.png');
+    backgroundblendmode: multiply;
+    backgroundrepeat: norepeat;
+    background-position-y: 17%;
+    background-position-x: 45%;
+    backgroundsize: 22% 27%;
+    background-attachment: fixed;
+}
+
+
+/* this class is for  "facebook and twitter icons"  */
+
+.fa {
+    padding: 3px;
+    font-size: 14px;
+    width: 17px;
+    textalign: center;
+    textdecoration: none;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+
+/* this class is for decorating the  "places notes in front page"  */
+
+.check_some_places_here {
+    padding-top: 15px;
+    paddingbottom: 15px;
+    fontsize: 30px;
+    font-family: 'Lobster', cursive;
+    backgroundcolor: slategray;
+    border-style: groove;
+    borderradius: 10px;
+    color: antiquewhite;
+    background: #c50909;
+    margin: 70px;
+}
+
+.img_main {
+    padding: 0.9%;
+    margin: 7px;
+    border-style: ridge;
+}
+
+
+/* this is for main page images full size link*/
+
+.image_visit:link {
+    color: rgb(219, 216, 209);
+}
+
+.image_visit:visited {
+    color: rgb(219, 216, 209);
+}
+
+.image_visit:hover {
+    color: crimson;
+}
+
+.image_visit:active {
+    color: rgb(219, 216, 209);
+}
+
+
+/* This class is for  "title image"  */
+
+.title_image {
+    padding-left: 3%;
+}
+
+.looking_for_explore_heading {
+    borderstyle: solid;
+    border-radius: 10px;
+    fontfamily: 'Lobster Two', cursive;
+    font-size: 280%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 3%;
+    backgroundcolor: crimson;
+    boxshadow: 10px 10px 15px black;
+}
+
+
+/* This class is for decorating the Places_Names like Delhi,Mumbai, etc. in explore  page*/
+
+.Places_Pages_in_explore {
+    background-color: wheat;
+    fontsize: 20px;
+    fontweight: bold;
+    margin: 50px;
+    textoverflow: auto;
+    borderstyle: solid;
+    padding: 0.8%;
+}
+
+.Places_Pages_in_explore:link {
+    color: crimson;
+}
+
+.Places_Pages_in_explore:visited {
+    color: crimson;
+}
+
+.Places_Pages_in_explore:hover {
+    color: black;
+}
+
+.Places_Pages_in_explore:active {
+    color: crimson;
+}
+
+
+/* This class is for decorating the Places_images in neighbouring the Delhi,Mumbai, etc names. in explore page*/
+
+.Places_Pages_in_explore_images {
+    padding: 15px;
+    borderstyle: groove;
+    margin: 05px
+}
+
+
+/* This class is for define the images and images description in Explore Page*/
+
+.image_description {
+    boxshadow: -8px 8px 13px black;
+    border: 2px solid black;
+    overflow: auto;
+    margin: 15px;
+    padding: 0.8%
+}
+
+.image_resolution {
+    margin: 0.4%;
+    box-shadow: -8px 8p13pxblack;
+}
+
+
+/* this class is for places heading in explore page */
+
+.places_heading_tag {
+    paddingleft: 25px;
+    font-weight: bold;
+}
+
+
+/*this class is for  Back Button */
+
+.back_button {
+    fontweight: bold;
+    border: 2px solid black;
+    borderradius: 10px;
+    background-color: green;
+    padding: 10px;
+    margin: 30px;
+}
+
+.back_button:hover {
+    color: seashell;
+}
